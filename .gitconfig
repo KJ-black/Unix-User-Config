@@ -1,0 +1,7 @@
+[user]
+	email = alanchen0922@gmail.com
+	name = KJ-black
+[alias]
+	add-commit = !git add -A && git commit
+[credential]
+	helper = store
