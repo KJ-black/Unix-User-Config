@@ -119,3 +119,12 @@ export EDITOR=vim
 
 # Fix prompt at the bottom of the terminal window
 printf '\n%.0s' {1..100}
+
+# powerline
+POWERLINE_SCRIPT=/usr/share/powerline/bindings/bash/powerline.sh
+if [ -f $POWERLINE_SCRIPT ]; then
+  source $POWERLINE_SCRIPT
+fi
+
+# let p10k can choose rainbow mode
+export TERM=xterm-256color

@@ -19,17 +19,19 @@ User configuration for me
 - `git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k`
 - Edit ~/.zshrc `ZSH_THEME="powerlevel10k/powerlevel10k"`
 - `source ~/.zshrc`
+- Install font
+    Use the correct font to let the icon appear successfully
+    - https://github.com/romkatv/powerlevel10k#fonts
+    - Choose MesloLGS NF
 - `p10k configure`
-    - "diamond?" n
-    - "lock" y
-    - "fit between the crosses" y
+    - 3 RAINBOW
     - 2 ASCII
     - 2 24-hour
-    - 2 two lines
+    - 1 one lines
     - 1 disconnected
-    - 2 Sparse
+    - 1 Compact
     - 1 Concise
-    - y Yes
+    - n No
     - 1 Verbose
 
 ### Plugins
