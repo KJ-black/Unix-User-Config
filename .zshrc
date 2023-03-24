@@ -128,3 +128,4 @@ fi
 
 # let p10k can choose rainbow mode
 export TERM=xterm-256color
+export LS_COLORS='ow=01;36;40'
