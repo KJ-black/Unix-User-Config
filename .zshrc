@@ -117,3 +117,5 @@ source $ZSH/oh-my-zsh.sh
 ## My config
 export EDITOR=vim
 
+# Fix prompt at the bottom of the terminal window
+printf '\n%.0s' {1..100}
