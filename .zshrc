@@ -90,10 +90,17 @@ source $ZSH/oh-my-zsh.sh
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
+# language
+#   - `local` to check
+#   - If missing file
+#       - sudo apt install locales
+#       - sudo locale-gen en_US.UTF-8
 # pipenv need to set this
 export LANG=en_US.UTF-8
 # gdb gef
 export LC_CTYPE=C.UTF-8
+# others
+export LC_ALL=en_US.UTF-8
 
 # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
