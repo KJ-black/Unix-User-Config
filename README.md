@@ -42,9 +42,12 @@ User configuration for me
  - zsh-syntax-highlighting
     - `git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting`
 - Add to ~/.zshrc
-    - ```plugins=(git
-zsh-completions
-zsh-autosuggestions
-zsh-syntax-highlighting
-)``` 
+  ```
+  plugins=(
+      git
+      zsh-completions
+      zsh-autosuggestions
+      zsh-syntax-highlighting
+  )
+  ``` 
 - `source ~/.zshrc`
